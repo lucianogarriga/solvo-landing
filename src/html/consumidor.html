@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SOLVO — Defensa del Consumidor. Reclamos frente a empresas, bancos y proveedores en Córdoba.">
+  <title>Defensa del Consumidor — SOLVO Abogados Córdoba</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-container">
+    <a href="index.html" class="navbar-logo-wrap">
+      <span class="navbar-logo-name">SOLVO</span>
+      <span class="navbar-logo-sub">LEGAL</span>
+    </a>
+    <a href="index.html" class="nav-link">← Volver al inicio</a>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <span class="page-badge">Defensa del consumidor</span>
+    <h1>Si no cumplieron lo prometido, tenés derechos.</h1>
+    <p>Reclamos frente a empresas, bancos y proveedores. Contanos tu situación y vemos cómo encararla.</p>
+  </div>
+</section>
+
+<!-- ══ CONTENIDO + FORMULARIO ══ -->
+<section class="page-body">
+  <div class="page-inner">
+
+    <!-- Proceso -->
+    <div class="page-process">
+      <h2>¿Qué pasa después?</h2>
+      <div class="process-step">
+        <p><b>1. Recibimos tu reclamo</b><br>Te contactamos dentro de las 24 hs para conocer más detalles.</p>
+      </div>
+      <div class="process-step">
+        <p><b>2. Evaluamos la situación</b><br>Revisamos la documentación y te decimos con claridad qué se puede reclamar.</p>
+      </div>
+      <div class="process-step">
+        <p><b>3. Gestionamos el reclamo</b><br>Nos encargamos de todo frente a la empresa o proveedor. A acordar según el caso.</p>
+      </div>
+    </div>
+
+    <!-- Formulario -->
+    <div class="page-form-wrap">
+      <h3>Contanos tu reclamo</h3>
+      <form id="consForm" method="POST" action="https://docs.google.com/forms/d/e/YOUR_FORM_ID_CONSUMER/formResponse" novalidate>
+        <div class="form-group">
+          <label class="form-label">Nombre y apellido</label>
+          <input class="form-input" name="entry.101010" type="text" placeholder="Tu nombre completo" required>
+        </div>
+        <div class="form-row-inline">
+          <div class="form-group">
+            <label class="form-label">WhatsApp / Teléfono</label>
+            <input class="form-input" name="entry.202020" type="tel" placeholder="(0351) 000-0000" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Empresa / proveedor</label>
+            <input class="form-input" name="entry.303030" type="text" placeholder="Nombre de la empresa">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Tipo de reclamo</label>
+          <select class="form-input" name="entry.404040">
+            <option value="">Seleccioná una opción</option>
+            <option>Producto defectuoso</option>
+            <option>Servicio no prestado</option>
+            <option>Cobro indebido / no reconocido</option>
+            <option>Publicidad engañosa</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Monto aproximado del reclamo</label>
+          <input class="form-input" name="entry.505050" type="text" placeholder="Ej: $150.000 (opcional)">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Contanos qué pasó</label>
+          <textarea class="form-input" name="entry.606060" rows="4" placeholder="Describí brevemente el reclamo..."></textarea>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" id="priv-cons" required>
+          <label for="priv-cons">Acepto el tratamiento de mis datos personales para ser contactado por SOLVO. Ver <a href="privacidad.html">política de privacidad</a>.</label>
+        </div>
+        <button type="submit" class="cta-main" style="width:100%;justify-content:center;margin-top:6px;">Enviar mi reclamo</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="page-footer">
+  <div class="page-footer-inner">
+    <span class="footer-link">© 2026 SOLVO — Córdoba, Argentina</span>
+    <span class="footer-link">solvolegal.contacto@gmail.com</span>
+  </div>
+</footer>
+
+<script type="module" src="../js/app.js"></script>
+</body>
+</html>
